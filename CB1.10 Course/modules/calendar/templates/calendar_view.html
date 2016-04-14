@@ -1,0 +1,19 @@
+{% extends 'base_course.html' %} 
+
+{% block top_content %} 
+{% endblock %} 
+
+{% block navbar %} 
+{% endblock %} 
+
+{% block main_content %}
+
+<script src="/modules/calendar/resources/js/main.js"></script>
+<h1>Calendar:</h1>
+<ul>
+    {% for event in events %}
+        <li>{{event.name}} {{event.date}}: {{event.description}}</li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
