@@ -1,5 +1,0 @@
-files:
-  - modules/ajax_registry/__init__.py
-  - modules/ajax_registry/assets/js/registry.js
-  - modules/ajax_registry/manifest.yaml
-  - modules/ajax_registry/registry.py

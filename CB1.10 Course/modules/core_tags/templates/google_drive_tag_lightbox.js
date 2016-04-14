@@ -1,1 +1,0 @@
-GcbGoogleDriveTagChild.main();
